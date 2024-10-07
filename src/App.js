@@ -16,6 +16,8 @@ import TimerComponent from './usestate/TimerComponent'
 import CreateTimer from './usestate/CreateTimer'
 import CountDown from './usestate/CountDown'
 import OnlineStatus from './usestate/OnlineStatus'
+import Form1 from './formhandling/Form1'
+import Form2 from './formhandling/Form2'
 
 function App() {
   return (
@@ -37,6 +39,9 @@ function App() {
       <CreateTimer />
       <PollingData />
       <CountDown />
+
+      <Form1 />
+      <Form2 />
     </div>
   )
 }
